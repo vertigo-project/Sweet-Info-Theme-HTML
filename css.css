@@ -1,0 +1,186 @@
+body
+{
+    width:100%;
+    background-color:#f1f2f2;
+    color:#fdfdfd;
+    margin-left:0;
+    margin-top:0;
+    cursor:default;
+     background: url('bg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header
+{
+    background-color:#242424;
+    height:40px;
+    width:100%;
+    position:absolute;
+}
+nav
+{
+    position:absolute;
+    right:35px;
+    top:11px;
+    font-size:13px;
+    color:#252525;
+    font-family: '18cents',arial,sans-serif;
+}
+nav a
+{
+    color:#a2a2a2;
+    
+}
+nav a:hover
+{
+    color:#fdfdfd;
+}
+article
+{
+    width:100%;
+    height:400px;
+    margin:0 auto;
+}
+footer
+{
+    background:rgba(255,255,255,0.7);
+    width:100%;
+    height:80px;
+    position:absolute;
+    bottom:0;
+    color:#41413f;
+}
+a
+{
+   text-decoration:none; 
+   color:#fdfdfd;
+   cursor:pointer;
+   outline: 0;
+}
+footer a:hover
+{
+    text-decoration:underline;
+}
+div#fullarticle
+{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:100px;
+    left: 0;
+    right: 0;
+    width:800px;
+    word-wrap: break-word;
+}
+div#welcome
+{
+    position:relative;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:8%;
+    color:#252525;
+    text-shadow: 2px 5px 8px rgba(0,0,0,0.6);
+    text-align:center;
+    font-size:35px;
+    font-family: '18cents',arial,sans-serif;
+}
+div#title
+{
+    color:#e0336b;
+    font-weight:bold;
+    font-size:24px;
+}
+div#whiteblock
+{
+    background:rgba(255,255,255,0.5);
+    padding:35px;
+    border-radius:2px;
+    box-shadow: 0 0 15px 1px #252525;
+}
+div#txt
+{
+    margin-top:20px;
+    font-size:13px;
+    font-weight:bold;
+    text-indent:15px;
+    color:#41413f;
+}
+div#txt a
+{
+    color:#668CFF;
+    font-style:italic;
+    font-size:18px;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    font-family: 'AidaSerifa-Condensed',arial,sans-serif;
+}
+div#txt a:hover
+{
+    text-decoration:underline;
+}
+div#belka1 a
+{
+    color:#41413f;
+}
+div#belka2 a
+{
+    color:#e0336b;
+}
+div#belka1
+{
+    width:100%;
+    text-align:center;
+    padding-top:15px;
+    font-size:14px;
+}
+div#belka2
+{
+    width:100%;
+    text-align:center;
+    padding-top:15px;
+    font-size:11px
+}
+div#logotype
+{
+    font-weight:bold;
+    font-size:25px;
+    width:500px;
+    margin-left:2%;
+    line-height: 40px;
+    white-space: nowrap;
+    font-family: 'DolceVitaHeavyBold',arial,sans-serif;
+}
+span#sep
+{
+    color:gray;
+}
+span.sep
+{
+    color:#e1e1e1;
+}
+p#sentence
+{
+    font-size:55%;
+    font-style:italic;
+    font-family: 'AidaSerifa-Condensed',arial,sans-serif;
+}
+#vertigo:hover
+{
+    color:#e0336b;
+    text-decoration:underline;
+}
+#vertigo
+{
+    color:#668CFF;
+}
+@font-face {
+    font-family: "DolceVitaHeavyBold";
+    src: url(DolceVitaHeavyBold.ttf) format("truetype");
+    font-family: "18cents";
+    src: url(18cents.ttf) format("truetype");
+    font-family: "AidaSerifa-Condensed";
+    src: url(AidaSerifa-Condensed.ttf) format("truetype");
+}
